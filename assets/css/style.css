@@ -1,0 +1,91 @@
+:root
+{
+--shadow: 0px 0px 50px 1px;
+--radius: 10px;
+--background: #756a56a3;
+}
+
+*, nav, div, span, h1, h2, h3, h4, h5, h6, a, .row, .container, .col-12, .col-sm-12, .col-md-6,
+{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  background-clip: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+span
+{
+  width: auto;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container1{
+  height: 100vh;
+  position: relative;
+}
+
+.sign-screen{
+  width: 650px;
+  height: 350px;
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  transition: 1s ease;
+}
+
+.account h1{
+  font-size: 5em;
+}
+
+.account h6{
+  letter-spacing: .5px;
+}
+
+input{
+  width: 100%;
+  border-radius: var(--radius);
+  border:0;
+}
+.e-mail, .password{
+  align-items: center;
+}
+
+.e-mail input{
+  width: 100%;
+  border-radius: 20px;
+  border: 0;
+}
+.password input{
+  width: 100%;
+  border-radius: 20px;
+  border: 0;
+}
+
+.sign-in{
+  background:var(--background);
+  color: white;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 30px;
+}
+
+.create-account{
+  color: white;
+  position: relative;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px;
+}
+
+.create{
+  text-align: center;
+  align-items: center;
+  bottom: 10px;
+}
